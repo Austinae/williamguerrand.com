@@ -14,12 +14,12 @@
 	<meta name='copyright' content=''/>
 	<meta name='language' content='En'/>
 	<!-- Author -->
-	<meta name='author' content='William Guerrand, @gmail.com@hotmail.com'/>
+	<meta name='author' content='William Guerrand, guerrandw@gmail.com'/>
 	<meta name='designer' content=''/>
-	<meta name='reply-to' content='email@hotmail.com'/>
+	<meta name='reply-to' content='guerrandw@gmail.com'/>
 	<!-- Dublin core metadata -->
 	<meta name="dc.language" CONTENT="EN"/>
-	<meta name="dc.source" CONTENT="https://www.guerrandw@gmail.com"/>
+	<meta name="dc.source" CONTENT="https://www.williamguerrand.com"/>
 	<meta name="dc.title" CONTENT="William Guerrand"/>
 	<meta name="dc.keywords" CONTENT="guerrand, guerrand-anderson, william guerrand, william, guerrand, lancaster university, student, software, engineer, computer, science, home page"/>
 	<meta name="dc.subject" CONTENT="William Guerrand's personal website."/>
@@ -47,7 +47,7 @@
 	<meta property="og:title" content="William Guerrand"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:image" content="./logo.png"/>
-	<meta property="og:url" content="https://www.guerrandw@gmail.com"/>
+	<meta property="og:url" content="https://www.williamguerrand.com"/>
 	<meta property="og:site_name" content="William Guerrand"/>
 	<meta property="og:description" content="Hello, my name is William Guerrand and this is my website. I am a keen individual who is seeking new opportunities after having just graduated from Lancaster University in Computer Science (Hons)."/>
 	<!-- Twitter Card -->
@@ -67,13 +67,49 @@
 	<meta name='target' content='all'>
 
 	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T72FXBKY4Z"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-T72FXBKY4Z');
+	</script>
 </head>
 <body>
 	<div class="container">
+		<div class="header"></div>
 		<h1>My name is <span style="font-family:Plex;">William Guerrand</span> and this is my website.</h1>
 		<h2>I am a keen individual who is seeking new opportunities after having just graduated from Lancaster University in Computer Science (Hons).</h2>
+		<h3>Feel free to visit the following links and ping me by email <a href="mailto:guerrandw@gmail.com">here.</a></h3>
+		<div class="container-links">
+			<a href="./projects.html">Projects</a>
+			<a href="./William-Guerrand.pdf">Resume</a>
+		</div>
 	</div>
 
+	<div class="contact">
+		<div>
+			<a href="https://github.com/Austinae">
+				<img src="./github_icon.svg">
+			</a>
+		</div>
+		<div>
+			<a href="https://linkedin.com/in/william-ga">
+				<img src="./linkedin_icon.svg">
+			</a>
+		</div>
+	</div>
 
+	<script type='text/javascript'>
+		window.smartlook||(function(d) {
+		var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+		var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+		c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+		})(document);
+		smartlook('init', '0630d124b40355c26d383ae26012302a0b6f812f');
+	</script>
 </body>
 </html>
