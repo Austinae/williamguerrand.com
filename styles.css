@@ -82,12 +82,12 @@ body{
 	bottom: 20px;
 	height: 50px;
 	left: 50%;
-	margin-left: -65px;
+	margin-left: -105px;
 	display:grid;
 	position: fixed;
 	text-align: justify;
 	text-justify: inter-word;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 30px;
 }
 
